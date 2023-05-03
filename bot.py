@@ -1,8 +1,8 @@
 import logging
-import logging.config
+import logging.info
 
 # Get logging configurations
-logging.config.fileConfig('logging.conf')
+logging.info.fileInfo('logging.info')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("imdbpy").setLevel(logging.ERROR)
