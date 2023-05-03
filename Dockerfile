@@ -1,8 +1,10 @@
 FROM python:3.10.10
 
-WORKDIR /app/
+WORKDIR /MyLoveMoon/
 
 COPY requirements.txt ./
+
+CD MyLoveMoon
 
 RUN pip install -r requirements.txt
 
