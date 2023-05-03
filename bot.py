@@ -1,5 +1,5 @@
 import logging
-import logging.confi
+import logging.conf
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
