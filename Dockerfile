@@ -1,6 +1,6 @@
 FROM python:3.10.10
 
-WORKDIR /MyLoveMoon/
+WORKDIR /app/
 
 COPY requirements.txt ./
 
